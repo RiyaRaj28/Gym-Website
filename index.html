@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riya Fitness Gym</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo Bhai"
+      rel="stylesheet"
+    />
+    <style>
+      /* CSS reset */
+      body {
+        font-family: "Baloo Bhai";
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+        background: url(bkgrd.png);
+        background-size: cover;
+        color: white;
+      }
+
+      .left img {
+        width: 80px;
+      }
+
+      .left {
+        display: inline-block;
+        /* border: 2px solid; */
+        position: absolute;
+        left: 41px;
+        top: 27px;
+        font-size: 14px;
+      }
+
+      .left div {
+        text-align: center;
+      }
+
+      .navbar {
+        display: inline-block;
+      }
+
+      .navbar li {
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+      }
+
+      .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 15px;
+      }
+
+      .navbar li a:hover,
+      .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+      }
+
+      .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 52%;
+        margin: 12px auto;
+      }
+
+      .btn {
+        font-family: "Baloo Bhai";
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: rgb(51, 44, 44);
+      }
+
+      .right {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        right: 34px;
+        top: 23px;
+        display: inline-block;
+      }
+
+      .container {
+        border: 2px solid #d2dcd2;
+        margin: 204px 43px;
+        padding: 0px 22px;
+        width: 46%;
+        border-radius: 44px;
+      }
+
+      .container h1 {
+        text-align: center;
+      }
+
+      .container button {
+        display: block;
+        width: 66%;
+        margin: 20px auto;
+      }
+
+      .form-group input {
+
+        border-radius: 27px;
+        text-align: center;
+        display: block;
+        width: 480px;
+        padding: 9px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 16px;
+        font-family: "Baloo Bhai";
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="gymLogo.jpg" alt="" />
+        <div>Riya Fitness</div>
+      </div>
+
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>Join the Best Gym of Kurukshetra now</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Name" border-radius: 27px />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Age" border-radius: 27px />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Gender" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Locality" />
+        </div>
+
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
